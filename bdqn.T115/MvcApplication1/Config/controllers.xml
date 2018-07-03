@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--控制器对象-->
+  <object type="MvcApplication1.Controllers.UserController, MvcApplication1" singleton="false" >
+    <property name="ubll" ref="UserBll" />
+    <property name="abll" ref="ActionBll" />
+    <property name="mbll" ref="MenuBll" />
+    <property name="dabll" ref="DepartmentActionBll" />
+  </object>
+  <!--<object type="MvcApplication1.Controllers.HomeController, MvcApplication1" singleton="false" >
+    <property name="ubll" ref="UserBll" />
+  </object>-->
+
+
+</objects>

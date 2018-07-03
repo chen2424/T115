@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object name="UserBll"  type="T115.Bll.UserBll, T115.Bll">
+  </object>
+  <object name="ActionBll"  type="T115.Bll.ActionInfoBll, T115.Bll">
+  </object>
+  <object name="MenuBll"  type="T115.Bll.MenuInfoBll, T115.Bll">
+  </object>
+  <object name="DepartmentActionBll"  type="T115.Bll.DepartmentActionInfoBll, T115.Bll">
+  </object>
+</objects>
